@@ -30,6 +30,9 @@ function setup() {
 	Cradle4=new ball(startBobPositionX+bobDiameter,startBobPositionY,bobDiameter);
 	Cradle5=new ball(startBobPositionX+bobDiameter*2,startBobPositionY,bobDiameter);
 	
+	// for the text
+	textSize(20);
+	text("Press Down arrow for the movement",20,20);
 	
 	//Create a Ground
 	
